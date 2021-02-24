@@ -1,0 +1,149 @@
+body {
+    margin: 55px 50px 0 50px;
+}
+
+/*===header===*/
+.container {
+    max-width: 1500px;
+    margin: 50px auto;
+    border-bottom: 3px solid #F8FAFD;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.Design__count-wrapper {
+    display: flex;
+}
+
+.Design__count {
+    display: flex;
+    flex-direction: column;
+}
+
+.Design__count + .Design__count {
+    margin-left: 80px;
+}
+
+.Design__sub-title {
+    color: #BFC2C8;
+    font-size: 24px;
+    line-height: 31px;
+}
+
+.title {
+    font-size: 64px;
+    line-height: 83px;
+    color: #333333;
+}
+
+.wrapper__count {
+    display: flex;
+}
+
+.count__img {
+    margin-right: 10px;
+}
+
+.sub-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 26px;
+    color: #BFC2C8;
+}
+
+.count-sum {
+    margin-top: 10px;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 62px;
+    color: #333333;
+}
+
+
+/*header__content*/
+.content__container {
+    border: none;
+    margin-bottom: 200px;
+}
+
+.wrapper__content {
+    display: grid;
+    grid-gap: 100px;
+    grid-template-columns: 74% 20%;
+}
+
+.table-column {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+
+.table__column-title {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 39px;
+    padding: 5px 10px;
+    margin-bottom: 30px;
+}
+
+.table__column-text {
+    font-size: 26px;
+    line-height: 28px;
+    color: #333333;
+    padding: 20px 10px;
+    margin-left: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.title-end {
+    text-align: end;
+}
+
+.end {
+    text-align: end;
+    padding-right: 35px;
+}
+
+.notes__content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    padding: 30px 20px 40px;
+    background: url("./img/Mask Group.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.notes__title {
+    color: #fff;
+    font-size: 28px;
+    line-height: 28px;
+}
+
+.notes__text {
+    color: #fff;
+    padding-top: 10px;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.notes__img {
+    width: 170px;
+    position: absolute;
+    top: -76px;
+    right: 0;
+}
+
+/*total cost*/
+.wrapper__content-total {
+    grid-template-columns: 100%;
+}
